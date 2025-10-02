@@ -28,4 +28,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages   # ✅ make sure output goes here
+          publish_branch: gh-pages
+          force_orphan: true   # ✅ fixes your git 128 error
