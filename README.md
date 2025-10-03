@@ -21,23 +21,20 @@ This project is built using the latest industry standards for **high performance
 
 ## 🏗️ Project Structure
 
-The project is structured for easy development and **fast build times** using **Vite**.
+The project is structured for easy development and fast build times using Vite.
 
+```text
 portfolio-website/
-├── .github/ # GitHub Actions workflow for deployment
-│ └── workflows/
-│ └── deploy.yml # Auto-builds and deploys the 'dist/' folder
-├── src/ # All source code (React components, pages, logic)
-│ ├── components/
-│ ├── lib/
-│ └── pages/
-├── public/ # Static assets (favicon, manifest, etc.)
-├── package.json # Dependencies and scripts
-└── vite.config.ts # Vite configuration
-
-yaml
-Copy code
-
+├── .github/          # GitHub Actions workflow for deployment
+│   └── workflows/
+│       └── deploy.yml  # Auto-builds and deploys the 'dist/' folder
+├── src/              # All source code (React components, pages, logic)
+│   ├── components/
+│   ├── lib/
+│   └── pages/
+├── public/           # Static assets (favicon, manifest)
+├── package.json      # Project dependencies and scripts
+└── vite.config.ts    # Vite configuration
 ---
 
 ## 🛠️ Quick Start (Local Development)
@@ -45,18 +42,15 @@ Copy code
 Follow these steps to run the project locally on your machine.
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/sakethyadala/Portfolio-Website.git
 cd Portfolio-Website
 2. Install dependencies
-bash
-Copy code
 npm install
 # or
 bun install
 3. Start the development server
-bash
-Copy code
 npm run dev
 The site will be available at 👉 http://localhost:5173 (or a similar port).
 
