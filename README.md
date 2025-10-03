@@ -1,108 +1,79 @@
-🚀 Saketh Yadala | Portfolio Website
-A clean, responsive, and modern personal portfolio showcasing projects and technical skills.
+# 🚀 Saketh Yadala | Portfolio Website
 
-This project is built using the latest industry standards for high performance and accessibility, and is deployed via GitHub Actions for Continuous Deployment.
+A clean, responsive, and modern **personal portfolio** showcasing projects and technical skills.
 
-✨ Key Features & Stack
-Category
+This project is built using the latest industry standards for **high performance** and **accessibility**, and is deployed via **GitHub Actions** for Continuous Deployment.
 
-Technologies / Tools
+---
 
-Frontend
+## ✨ Key Features & Tech Stack
 
-React, TypeScript, Vite
+| **Category**   | **Technologies / Tools**                                   |
+|---------------|-------------------------------------------------------------|
+| **Frontend**  | React, TypeScript, Vite                                     |
+| **Styling**   | Tailwind CSS, Shadcn/ui                                    |
+| **Design**    | Radix UI (for accessible components)                         |
+| **Deployment**| GitHub Pages + GitHub Actions (CI/CD)                       |
+| **Domain**    | Custom Domain: [sakethyadala.dev](https://sakethyadala.dev) |
+| **Source**    | Lovable (Initial structure)                                 |
 
-Styling
+---
 
-Tailwind CSS, Shadcn/ui
+## 🏗️ Project Structure
 
-Design System
-
-Radix UI (for accessible components)
-
-Deployment
-
-GitHub Pages + GitHub Actions (CI/CD)
-
-Domain
-
-Custom Domain: sakethyadala.dev
-
-Source Code
-
-Lovable (Initial structure)
-
-🏗️ Project Structure
-The project is structured for easy development and fast build times using Vite.
+The project is structured for easy development and **fast build times** using **Vite**.
 
 portfolio-website/
-├── .github/          # GitHub Actions workflow for deployment
-│   └── workflows/
-│       └── deploy.yml  # Auto-builds and deploys the 'dist/' folder
-├── src/              # All source code (React components, pages, logic)
-│   ├── components/
-│   ├── lib/
-│   └── pages/
-├── public/           # Static assets (favicon, manifest)
-├── package.json      # Dependencies and scripts
-└── vite.config.ts    # Vite configuration
+├── .github/ # GitHub Actions workflow for deployment
+│ └── workflows/
+│ └── deploy.yml # Auto-builds and deploys the 'dist/' folder
+├── src/ # All source code (React components, pages, logic)
+│ ├── components/
+│ ├── lib/
+│ └── pages/
+├── public/ # Static assets (favicon, manifest, etc.)
+├── package.json # Dependencies and scripts
+└── vite.config.ts # Vite configuration
 
-🛠️ Quick Start (Local Development)
+yaml
+Copy code
+
+---
+
+## 🛠️ Quick Start (Local Development)
+
 Follow these steps to run the project locally on your machine.
 
-Clone the repository:
-
-git clone [https://github.com/sakethyadala/Portfolio-Website.git](https://github.com/sakethyadala/Portfolio-Website.git)
+### 1. Clone the repository
+```bash
+git clone https://github.com/sakethyadala/Portfolio-Website.git
 cd Portfolio-Website
-
-Install dependencies:
-
+2. Install dependencies
+bash
+Copy code
 npm install
-
-(or bun install if you are using Bun)
-
-Start the development server:
-
+# or
+bun install
+3. Start the development server
+bash
+Copy code
 npm run dev
-
-The site will be available at http://localhost:5173 (or similar port).
+The site will be available at 👉 http://localhost:5173 (or a similar port).
 
 🚀 Deployment Status
-This site is automatically deployed to GitHub Pages via a dedicated workflow.
+This site is automatically deployed to GitHub Pages via a dedicated GitHub Actions workflow.
 
-Item
-
-Status
-
-Custom Domain
-
-sakethyadala.dev
-
-Hosting
-
-GitHub Pages
-
-Build System
-
-GitHub Actions
-
-Deployment Branch
-
-gh-pages
+Item	Status
+Custom Domain	sakethyadala.dev
+Hosting	GitHub Pages
+Build System	GitHub Actions
+Deployment Branch	gh-pages
 
 📞 Connect
-Platform
+Platform	Link
+Live Site	https://sakethyadala.dev
+LinkedIn	Your LinkedIn Profile URL
+Email	your-email@example.com
 
-Link
-
-Live Site
-
-https://sakethyadala.dev
-
-LinkedIn
-
-[Your LinkedIn Profile URL]
-
-Email
-
-[Your Professional Email Address]
+📝 License
+This project is licensed under the MIT License.
