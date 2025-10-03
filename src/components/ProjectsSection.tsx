@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
       features: ["Responsive design", "Smooth animations", "Dark theme", "SEO optimized"],
       github: "https://github.com/sakethyadala/portfolio-website",
-      demo: "https://sakethyadala.github.io/portfolio",
+      demo: "https://sakethyadala.dev/",
       gradient: "from-blue-500 to-cyan-500"
     },
     {
