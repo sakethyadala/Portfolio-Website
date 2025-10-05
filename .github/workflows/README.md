@@ -41,7 +41,7 @@ portfolio-website/
 
 Follow these steps to run the project locally on your machine.
 
-### 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/sakethyadala/Portfolio-Website.git
@@ -54,7 +54,7 @@ bun install
 npm run dev
 The site will be available at 👉 http://localhost:5173 (or a similar port).
 
-🚀 Deployment Status
+##🚀 Deployment Status
 This site is automatically deployed to GitHub Pages via a dedicated GitHub Actions workflow.
 
 Item	Status
@@ -63,11 +63,11 @@ Hosting	GitHub Pages
 Build System	GitHub Actions
 Deployment Branch	gh-pages
 
-📞 Connect
+##📞 Connect
 Platform	Link
 Live Site	https://sakethyadala.dev
 LinkedIn	Your LinkedIn Profile URL
 Email	your-email@example.com
 
-📝 License
+##📝 License
 This project is licensed under the MIT License.
