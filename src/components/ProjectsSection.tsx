@@ -25,16 +25,28 @@ const ProjectsSection = () => {
       demo: "https://sakethyadala.dev/",
       gradient: "from-blue-500 to-cyan-500"
     },
-    {
-      title: "Student Result Dashboard",
-      description: "A comprehensive analytics dashboard for visualizing student performance data with interactive charts, filters, and insights for educational institutions.",
-      icon: <BarChart3 className="h-8 w-8" />,
-      tech: ["Power BI", "Excel", "DAX", "SQL"],
-      features: ["Interactive visualizations", "Real-time data", "Custom metrics", "Export capabilities"],
-      github: "https://github.com/sakethyadala/student-result-dashboard",
-      demo: "https://github.com/sakethyadala/student-result-dashboard",
-      gradient: "from-green-500 to-emerald-500"
-    },
+  {
+  title: "DevTasks Task Manager",
+  description: "A web-based task management application designed to help users organize their daily tasks. Features user authentication, persistent task storage, and core task management functionalities.",
+  icon: <BarChart3 className="h-8 w-8" />, // Using the BarChart3 as requested, ensure it's imported if needed
+  tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "react-router-dom",
+    "zod"
+  ],
+  features: [
+    "User Authentication",
+    "Persistent Task Storage",
+    "Task Creation & Deletion",
+    "Mark Tasks as Complete"
+  ],
+  github: "https://github.com/sakethyadala/DevTasks-task-manager", // **IMPORTANT: Replace with your actual GitHub link**
+  demo: "https://your-devtasks-demo-link.vercel.app",             // **IMPORTANT: Replace with your actual live demo link (if you deploy it)**
+  gradient: "from-blue-500 to-indigo-500"
+},
     {
       title: "FAQ Chatbot",
       description: "An intelligent chatbot designed to handle frequently asked questions using natural language processing and machine learning techniques.",
