@@ -20,9 +20,8 @@ This project is built using the latest industry standards for **high performance
 ---
 
 ## 🏗️ Project Structure
-
-
 The project is structured for easy development and fast build times using **Vite**.
+
 
 portfolio-website/
 ├── .github/ # GitHub Actions workflow for deployment
