@@ -19,23 +19,21 @@ This project is built using the latest industry standards for **high performance
 
 ---
 
-
 ## 🏗️ Project Structure
 
 The project is structured for easy development and fast build times using **Vite**.
 
- 
- portfolio-website/
- ├── .github/ # GitHub Actions workflow for deployment
- │ └── workflows/
- │ └── deploy.yml # Auto-builds and deploys the 'dist/' folder
- ├── src/ # All source code (React components, pages, logic)
- │ ├── components/
- │ ├── lib/
- │ └── pages/
- ├── public/ # Static assets (favicon, manifest)
- ├── package.json # Project dependencies and scripts
- └── vite.config.ts # Vite configuration
+portfolio-website/
+├── .github/ # GitHub Actions workflow for deployment
+│ └── workflows/
+│ └── deploy.yml # Auto-builds and deploys the 'dist/' folder
+├── src/ # All source code (React components, pages, logic)
+│ ├── components/
+│ ├── lib/
+│ └── pages/
+├── public/ # Static assets (favicon, manifest)
+├── package.json # Project dependencies and scripts
+└── vite.config.ts # Vite configuration
 
 ---
 
