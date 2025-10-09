@@ -22,7 +22,7 @@ This project is built using the latest industry standards for **high performance
 ## 🏗️ Project Structure
 
 The project is structured for easy development and fast build times using **Vite**.
-
+```
 portfolio-website/
 ├── .github/ # GitHub Actions workflow for deployment
 │ └── workflows/
@@ -34,13 +34,14 @@ portfolio-website/
 ├── public/ # Static assets (favicon, manifest)
 ├── package.json # Project dependencies and scripts
 └── vite.config.ts # Vite configuration
-
+```
 ---
 
 ## 🛠️ Quick Start (Local Development)
 
 Follow these steps to run the project locally on your machine:
 
+```
 # Clone the repository
 git clone https://github.com/sakethyadala/Portfolio-Website.git
 cd Portfolio-Website
@@ -52,31 +53,35 @@ bun install
 
 # Start the development server
 npm run dev
-
+```
 The site will be available at http://localhost:5173 (or a similar port).
 
 ---
 
-🚀 Deployment Status
-This site is automatically deployed to GitHub Pages via a dedicated workflow.
+## 🚀 Deployment Status
 
-Item	Status
-Custom Domain	sakethyadala.dev
-Hosting	GitHub Pages
-Build System	GitHub Actions
-Deployment Branch	gh-pages
+This site is automatically deployed to **GitHub Pages** via a dedicated workflow.
 
----
-
-📞 Connect
-Platform	Link
-Live Site	https://sakethyadala.dev
-LinkedIn	Your LinkedIn Profile
-Email	your-email@example.com
+| **Item**            | **Status**                                    |
+|----------------------|-----------------------------------------------|
+| Custom Domain       | [sakethyadala.dev](https://sakethyadala.dev)  |
+| Hosting            | GitHub Pages                                 |
+| Build System       | GitHub Actions                               |
+| Deployment Branch  | `gh-pages`                                   |
 
 ---
 
-📝 License
+## 📞 Connect
+
+| **Platform** | **Link** |
+|-------------|----------|
+| Live Site   | [https://sakethyadala.dev](https://sakethyadala.dev) |
+| LinkedIn    | [https://www.linkedin.com/in/sakethyadala/](YourLinkedInProfileURL)     |
+| Email       | [sakethyadala2004@gmail.com](mailto:your-email@example.com) |
+
+---
+
+## 📝 License
 This project is licensed under the MIT License.
 
 
