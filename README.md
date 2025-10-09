@@ -1,106 +1,82 @@
-🚀 Saketh Yadala | Portfolio Website
+# 🚀 Saketh Yadala | Portfolio Website
+
 A clean, responsive, and modern personal portfolio showcasing projects and technical skills.
 
-This project is built using the latest industry standards for high performance and accessibility, and is deployed via GitHub Actions for Continuous Deployment.
+This project is built using the latest industry standards for **high performance** and **accessibility**, and is deployed via **GitHub Actions** for Continuous Deployment.
 
-✨ Key Features & Stack
-Category
+---
 
-Technologies / Tools
+## ✨ Key Features & Stack
 
-Frontend
+| **Category**     | **Technologies / Tools**                    |
+|------------------|---------------------------------------------|
+| Frontend        | React, TypeScript, Vite                     |
+| Styling         | Tailwind CSS, Shadcn/ui                     |
+| Design System   | Radix UI (for accessible components)        |
+| Deployment      | GitHub Pages + GitHub Actions (CI/CD)       |
+| Domain          | Custom Domain: [sakethyadala.dev](https://sakethyadala.dev) |
+| Source Code     | Lovable (Initial structure)                 |
 
-React, TypeScript, Vite
+---
 
-Styling
+## 🏗️ Project Structure
 
-Tailwind CSS, Shadcn/ui
-
-Design System
-
-Radix UI (for accessible components)
-
-Deployment
-
-GitHub Pages + GitHub Actions (CI/CD)
-
-Domain
-
-Custom Domain: sakethyadala.dev
-
-Source Code
-
-Lovable (Initial structure)
-
-🏗️ Project Structure
-The project is structured for easy development and fast build times using Vite.
+The project is structured for easy development and fast build times using **Vite**.
 
 portfolio-website/
-├── .github/          # GitHub Actions workflow for deployment
-│   └── workflows/
-│       └── deploy.yml  # Auto-builds and deploys the 'dist/' folder
-├── src/              # All source code (React components, pages, logic)
-│   ├── components/
-│   ├── lib/
-│   └── pages/
-├── public/           # Static assets (favicon, manifest)
-├── package.json      # Project dependencies and scripts
-└── vite.config.ts    # Vite configuration
+├── .github/ # GitHub Actions workflow for deployment
+│ └── workflows/
+│ └── deploy.yml # Auto-builds and deploys the 'dist/' folder
+├── src/ # All source code (React components, pages, logic)
+│ ├── components/
+│ ├── lib/
+│ └── pages/
+├── public/ # Static assets (favicon, manifest)
+├── package.json # Project dependencies and scripts
+└── vite.config.ts # Vite configuration
 
-🛠️ Quick Start (Local Development)
-Follow these steps to run the project locally on your machine.
+---
 
-Clone the repository:
+## 🛠️ Quick Start (Local Development)
 
-git clone [https://github.com/sakethyadala/Portfolio-Website.git](https://github.com/sakethyadala/Portfolio-Website.git)
+Follow these steps to run the project locally on your machine:
+
+# Clone the repository
+git clone https://github.com/sakethyadala/Portfolio-Website.git
 cd Portfolio-Website
 
-Install dependencies:
-
+# Install dependencies
 npm install
+# or
+bun install
 
-(or bun install if you are using Bun)
-
-Start the development server:
-
+# Start the development server
 npm run dev
 
-The site will be available at http://localhost:5173 (or similar port).
+The site will be available at http://localhost:5173 (or a similar port).
+
+---
 
 🚀 Deployment Status
 This site is automatically deployed to GitHub Pages via a dedicated workflow.
 
-Item
+Item	Status
+Custom Domain	sakethyadala.dev
+Hosting	GitHub Pages
+Build System	GitHub Actions
+Deployment Branch	gh-pages
 
-Status
-
-Custom Domain
-
-sakethyadala.dev
-
-Hosting
-
-GitHub Pages
-
-Build System
-
-GitHub Actions
-
-Deployment Branch
-
-gh-pages
+---
 
 📞 Connect
-Platform
+Platform	Link
+Live Site	https://sakethyadala.dev
+LinkedIn	Your LinkedIn Profile
+Email	your-email@example.com
 
-Link
+---
 
-Live Site
+📝 License
+This project is licensed under the MIT License.
 
-https://sakethyadala.dev
-
-LinkedIn
-
-YourLinkedInProfileURL
-Email
 
